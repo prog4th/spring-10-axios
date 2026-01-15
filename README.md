@@ -15,6 +15,9 @@ https://zrr.kr/hVeU1l
 ---
 https://nano5.notion.site/Axios-2dadaf211d4281d5a951c17f2b5222b6?source=copy_link
 
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/39056a4a-d3cc-40c7-8589-773822a6a9d1" />
+
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/9443e9c7-1aea-41f1-a4ef-8f417755d577" />
 
 ---
 
