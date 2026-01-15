@@ -18,10 +18,12 @@ export default function SongList() {
   }
 
   return (
-    <>
-      { songs.map((song) => (
-        <SongCard key={song.id} song={song} />
-      ))}
-    </>
+    <div className='p-6'>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        {songs.map(song => (
+          <SongCard key={song.id} song={song} />
+        ))}
+      </div>
+    </div>
   )
 }
