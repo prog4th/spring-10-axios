@@ -21,8 +21,19 @@ export default function SongDetail() {
 
   return (
     <div>
+      <img 
+        src={`https://picsum.photos/200/200?random=${id}`} 
+        alt="노래 앨범 이미지"/>
       <h1>{song.title}</h1>
+
+      <img 
+        src={`https://i.pravatar.cc/60?u=${id}`} 
+        alt="가수 이미지"/>
       <p>{song.singer}</p>
+      
+      <Link to="/">
+        돌아가기
+      </Link>
     </div>
   )
 }

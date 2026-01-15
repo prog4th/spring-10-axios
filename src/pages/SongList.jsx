@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { getSongList } from '../api/songApi'
 import { Link } from 'react-router-dom'
+import SongCard from '../components/SongCard'
 
 export default function SongList() {
   const { data: songs, isLoading, isError, error } = useQuery({
@@ -19,11 +20,7 @@ export default function SongList() {
   return (
     <>
       { songs.map((song) => (
-        <div key={song.id}>
-          <Link to={`/${song.id}`}>
-            {song.title}
-          </Link>
-        </div>
+        <SongCard key={song.id} song={song} />
       ))}
     </>
   )
